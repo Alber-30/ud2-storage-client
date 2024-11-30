@@ -14,31 +14,15 @@ Antes de empezar, hay que asegurarse de tener lo siguiente instalado en tu máqu
 - Node.js y npm: Para ejecutar el frontend con Vue.js.
 - Composer: Para gestionar las dependencias del backend con Laravel.
 
-## Estructura del Proyecto
-
-La estructura de directorios es la siguiente:
-
-/ud2-storage-client
-|-- /frontend
-|   |-- (Código del cliente Vue.js)
-|
-|-- /backend
-|   |-- (Código de la API REST en Laravel)
-|
-|-- README.md
-|-- docker-compose.yml
-
 ### Pasos para configurar el proyecto
 
 ### 1. Clonar el repositorio
 
 Primero, debes clonar el repositorio desde GitHub. Abre tu terminal (CMD o bash) y ejecuta el siguiente comando:
 
-bash
-git clone <url-del-repositorio>
+git clone <url-del-repositorio>,
 Esto descargará el código fuente del repositorio a tu máquina local. Luego, navega dentro del directorio del proyecto:
 
-bash
 cd ud2-storage-client
 
 Dentro del proyecto, necesitas crear dos carpetas: una para el backend y otra para el frontend. Ejecuta estos comandos en tu terminal:
